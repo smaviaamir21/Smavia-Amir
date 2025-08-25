@@ -1,7 +1,7 @@
 #indexes of characters in python
 
 name="Hassan"
-friend="Ahmad"
+friend="Ahmad" 
 other_friend="Mosa"
 print(name[0])
 print(name[1])
