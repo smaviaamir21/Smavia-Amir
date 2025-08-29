@@ -14,6 +14,6 @@ print(color[3])
 
 
 if "blue" in color:
-    print("yes")
+    print("Yes")
 else:
-    print("no")
+    print("No")
