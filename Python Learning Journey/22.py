@@ -20,3 +20,4 @@ average()
 def average(a=3, b=9):
     print("The average is:",(a+b)/2)
 average(b=15, a=9)
+
