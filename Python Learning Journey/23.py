@@ -17,3 +17,11 @@ if "blue" in color:
     print("Yes")
 else:
     print("No")
+
+# same thing applies on string as well!
+if "Sm" in "Smavia":
+    print("yes")
+else:
+    print("No")
+
+
