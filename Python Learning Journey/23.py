@@ -25,3 +25,9 @@ else:
     print("No")
 
 
+#jump index
+print(marks) # print the whole list
+print(marks[:]) # print list from 0 to 8 it is equal to marks[0:len(marks)] 
+print(marks[0:len(marks)])
+print(marks[0:8]) 
+print(marks[0:8:2]) # skip one index
