@@ -31,3 +31,11 @@ print(marks[:]) # print list from 0 to 8 it is equal to marks[0:len(marks)]
 print(marks[0:len(marks)])
 print(marks[0:8]) 
 print(marks[0:8:2]) # skip one index
+
+
+# list comprehension
+lst= [i*i for i in range(10)]
+print(lst)
+
+lst = [i*i for i in range (10) if i%2==0 ]
+print(lst)
