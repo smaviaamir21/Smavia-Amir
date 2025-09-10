@@ -23,3 +23,9 @@ except Exception as e:
 #runs always whether there is an error or not
 finally:
     print("Program ended safely.")
+
+# raising custom error
+
+a=int(input("Enter a value between 4 and 9: "))
+if(a<4 or a>9):
+    raise ValueError("value must be between 4 and 9.")
