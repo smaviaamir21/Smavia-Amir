@@ -1,10 +1,10 @@
 class Employee:
-    # ✅ CLASS VARIABLE: shared by ALL objects of the class
+    # CLASS VARIABLE: shared by ALL objects of the class
     # If you change it using the class name, it affects all objects.
     companyName = "Apple"
 
     def __init__(self, name):
-        # ✅ INSTANCE VARIABLES: unique for EACH object
+        # INSTANCE VARIABLES: unique for EACH object
         # Each employee will have their own 'name' and 'raise_amount'
         self.name = name
         self.raise_amount = 0.02
